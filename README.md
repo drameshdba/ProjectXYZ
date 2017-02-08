@@ -8,7 +8,7 @@ The Infrastructure Pattern Template **vm-3tier-poc-1** can either deploy a new o
 
 Click on the **Deploy to Azure** button below. This will open the Azure Portal (login if necessary) and start a Custom Deployment. The following Parameters will be shown and must be updated / selected accordingly. 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmrptsai%2FProjectXYZ%2Fnew%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmrptsai%2FProjectXYZ%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -26,7 +26,7 @@ Click on the **Deploy to Azure** button below. This will open the Azure Portal (
        1 - vm-poc-1 (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
        2 - vm-dsc-poc-1 (Creates a single VM running IIS with a new or existing Storage Account and a new or existing Virtual Network)
        3 - vm-3tier-poc-1 (Creates a 3 Tier environment with a new or existing Storage Account and a new or existing Virtual Network, Management Jumpbox with PublicIP and Network Security Groups)
-       4 - vm-duak-poc-1 (Creates a public facing Load balancer and 2 web servers with a new or existing Storage Account and a new or existing Virtual Network and a Network Security Group)
+       4 - vm-dual-poc-1 (Creates a public facing Load balancer and 2 web servers with a new or existing Storage Account and a new or existing Virtual Network and a Network Security Group)
   ```
 
 - storageAccountName

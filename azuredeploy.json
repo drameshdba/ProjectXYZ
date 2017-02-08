@@ -159,7 +159,7 @@
         }
     },
     "variables": {
-        "templatesFolder": "templates/new",
+        "templatesFolder": "templates/master",
         "templateUrl": "[concat(parameters('baseUrl'), variables('templatesFolder'), '/', parameters('patternName'), '.json')]",
         "storage-settings": {
             "accounts": [
